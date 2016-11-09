@@ -19,6 +19,7 @@
             <artifactId>assertj-core</artifactId>
             <version>3.5.2</version>
         </dependency>
+        <!-- testowane z Firefox 49.0.2, może być niekompatybilne z innymi wersjami Firefoxa -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>

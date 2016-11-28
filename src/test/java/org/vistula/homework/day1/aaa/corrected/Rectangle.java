@@ -1,8 +1,8 @@
-package org.vistula.homework.day1;
+package org.vistula.homework.day1.aaa.corrected;
 
 public class Rectangle {
-    private int a;
-    private int b;
+    int a;
+    int b;
 
     public Rectangle(int a, int b) {
         this.a = a;

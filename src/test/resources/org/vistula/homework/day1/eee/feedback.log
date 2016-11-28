@@ -1,0 +1,7 @@
++ duży plus za zmierzenie się z GITem
+- spróbuj stworzyć projekt podobnie jak robiliśmy to na zajęciach
+- plik Field, który dodałaś do swojego repozytorium nie jest rozpoznawany jako plik java, ponieważ nie ma odpowiedniego rozszerzenia - powinien się nazywać <nazwa-pliku>.java
+- nazwy klas powinny zaczynać się z dużej litery - konwencja
+- nazwy zmiennych powinny zaczynać się z małej litery
+- klasa rectangle, nie modeluje prostokąta tylko jest zbiorem testów, które testują mnożenie
+- nie rozumiem idei funkcji mnożenie, która zawsze zwraca 10

@@ -1,0 +1,15 @@
+Palindrome
+    + funkcjonalnie działa
+    + bardzo przejrzyste formatowanie kodu
+    + spójne podejście do nawiasów w dyrektywie 'if' (dobrą praktyką jest używanie zawsze nawiasów {})
+    + dobry dobór testów (dodałbym tam jeszcze taki "  " - dwie spacje :-))
+    - ostatnia dyrektywa 'if' mogłaby być uproszczona (Idea to proponuje)
+        return word.equalsIgnoreCase(reverse);
+
+Rectangle
+    + funkcjonalnie działa
+    + kompletny zestaw testów
+    - formatowanie kodu mogłoby być bardziej przejrzyste (skór CTRL+ALT+L)
+    - testom zmieniłbym nazwę
+        shouldHaveField -> shouldCalculateFieldCorrectly
+        shouldHavePerimeter - shouldCalculatePerimeterCorrectly

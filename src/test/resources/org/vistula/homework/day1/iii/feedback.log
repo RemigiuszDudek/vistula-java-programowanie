@@ -1,0 +1,4 @@
+- jedna metoda testowa powinna testować tylko jedną rzecz
+- czy jest jakościowa różnica pomiędzy testem ze słowem 'kajak' a testem ze słowem 'potop'?
+- brak testu na pusty napis, napis o różnych wielkościach liter czy też składający się z samych znaków białych
+- projekt w git'cie nie ma struktury zgodnej z konwencją a zatem źle otwiera się w narzędziach programistycznych

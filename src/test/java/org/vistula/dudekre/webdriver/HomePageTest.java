@@ -8,7 +8,7 @@ import java.util.List;
 
 import static com.google.common.collect.ImmutableList.of;
 
-public class HomePageTest extends AbstractWebdriverTest {
+public class HomePageTest extends WebPageTest {
     private HomePage homePage = new HomePage(webDriver);
 
     @Test

@@ -2,39 +2,47 @@ package org.vistula.homework.day1;
 
 import org.junit.Test;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 public class PalindromeCheckerTest {
+    private PalindromeChecker palindromeChecker = new PalindromeChecker();
+
     @Test
     public void shouldCorrectlyRecognizePalindrome() {
-        //1. Tworzę obiekt klasy PalindoromeChecker oraz String'a, który jest palindromem
-        //2. Wywołuję metodę isPalindrome and obiekcie palindromeChecker i rezultat zapisuję do zmiennej
-        //3. sprawdzam że resultat jest true
+        String palindrome = "aba";
+
+        boolean result = palindromeChecker.isPalindrome(palindrome);
+
+        assertThat(result).isTrue();
     }
 
     @Test
     public void shouldCorrectlyRecognizeNonPalindrome() {
-        //1. Tworzę obiekt klasy PalindoromeChecker oraz String'a, który nie jest palindromem
-        //2. Wywołuję metodę isPalindrome and obiekcie palindromeChecker i rezultat zapisuję do zmiennej
-        //3. sprawdzam że resultat jest false
+        String nonPalindrome = "abc";
+
+        boolean result = palindromeChecker.isPalindrome(nonPalindrome);
+
+        assertThat(result).isFalse();
     }
 
     @Test
     public void shouldBeCaseInsensitiveWhenRecognizingPalindrome() {
-        //1. Tworzę obiekt klasy PalindoromeChecker oraz String'a, który jest palindromem i zawiera duże i małe litery
-        //2. Wywołuję metodę isPalindrome and obiekcie palindromeChecker i rezultat zapisuję do zmiennej
-        //3. sprawdzam że resultat jest true
+        String palindrome = "Aba";
+
+        boolean result = palindromeChecker.isPalindrome(palindrome);
+
+        assertThat(result).isTrue();
     }
 
     @Test
     public void emptyStringIsNotPalindrome() {
-        //1. Tworzę obiekt klasy PalindoromeChecker oraz pustego String'a
-        //2. Wywołuję metodę isPalindrome and obiekcie palindromeChecker i rezultat zapisuję do zmiennej
-        //3. sprawdzam że resultat jest false
+        // to dla tych którzy chcieli trochę pogrzebać, nie da napisać się kodu tak, by ten test był zielony
+        // znając tylko struktury kodu, które poznaliśmy pierwszego dnia
     }
 
     @Test
     public void stringContainingOnlyWhiteCharactersIsNotPalindrome() {
-        //1. Tworzę obiekt klasy PalindoromeChecker oraz String'a złożonego tylko ze spacji i tabulacji
-        //2. Wywołuję metodę isPalindrome and obiekcie palindromeChecker i rezultat zapisuję do zmiennej
-        //3. sprawdzam że resultat jest false
+        // to dla tych którzy chcieli trochę pogrzebać, nie da napisać się kodu tak, by ten test był zielony
+        // znając tylko struktury kodu, które poznaliśmy pierwszego dnia
     }
 }

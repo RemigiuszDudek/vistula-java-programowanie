@@ -1,0 +1,3 @@
+- umieścić pliki w projekcie
+- zamiast System.out.println, dodać testy co spowoduje, że interfejs klas stanie się przejrzystszy - na razie wszystko siedzi w main
+- klasa Rectangle powinna modelować prostokąt czyli powinna zawierać w sobie dwa pola definiujące długość/szerokość

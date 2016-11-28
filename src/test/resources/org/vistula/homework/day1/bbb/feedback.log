@@ -1,0 +1,15 @@
+Generalne komentarze
+- dobrą praktyką jest umieszczanie wszystkich klas w jakimś pakiecie - na zajęciach stworzyliśmy pakiet org.vistula.<inicjaly> i wszystko co stworzyliśmy lądowało w tym pakiecie
+- testowa klasa jest klasą zewnętrzną - duży plus za wykombinowanie sposobu przetestowania klasy przez metodę main, tak się kiedyś testowało zanim pojawiły się framework'i (na zajęciach korzystaliśmy z junit'a), spróbuj napisać testy z wykorzystaniem framework'a
+- spróbuj zacząć pisanie klas od klas testowych w ten sposób klasa testowana powinna "wyjść sama"
+
+Palindrome
++ duży plus za próbę zrozumienia kodu z tak skomplikowanym for'em, rozwiązanie tego zadania jest również możliwe bez użycia pętli for, proponuj zerknąć na klasę StringBuffer ona ma potrzebną metodę
+- zmienna w sygnaturze metody nazywa się "zmienna", żeby oddawała twoją intencję lepiej jakby nazywała się "slowo" - jest oczywiście problem z polskimi znakami, między innymi z tego powodu zazwyczaj kod jest pisany po angielsku
+- masz tylko test pozytywny, dobrze byłby dodać jeszcze dodać kilka testów negatywnych
+
+Recangle
++ duży plus za to że napisałaś sama
+- lepiej byłoby stworzyć klasę Rectangle, która zamodelowałaby prostokąt, czyli miałaby zdefiniowane dwa pola, długość boku a oraz długość boku b, podobnie jak na zajęciach stworzyliśmy klasę Point  która modelowała punkt poprzez przechowywanie jego współrzędnych x i y
+- konwencja nazewnicza klas w Javie jest taka, że zaczynamy je pisać z dużej litery
+- nie ma potrzeby używania znaku końca linii, można zamiast metody System.out.print użyć System.out.println

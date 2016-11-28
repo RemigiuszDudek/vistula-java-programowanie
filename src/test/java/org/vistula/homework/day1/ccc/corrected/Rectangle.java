@@ -1,4 +1,4 @@
-package org.vistula.homework.day1;
+package org.vistula.homework.day1.ccc.corrected;
 
 public class Rectangle {
     private int a;
@@ -9,11 +9,11 @@ public class Rectangle {
         this.b = b;
     }
 
-    public int field() {
+    public int getField() {
         return a * b;
     }
 
-    public int perimeter() {
-        return 2 * a + 2 * b;
+    public int getPerimeter() {
+        return (2 * a) + (2 * b);
     }
 }

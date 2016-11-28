@@ -5,7 +5,7 @@ import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class AbstractWebdriverTest {
+public abstract class WebPageTest {
     protected static WebDriver webDriver;
 
     @BeforeClass

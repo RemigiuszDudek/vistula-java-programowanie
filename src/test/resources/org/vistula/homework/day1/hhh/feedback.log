@@ -1,0 +1,22 @@
+=== Rectangle===
++ Generalnie nie rozdzielalibyśmy testów klasy Rectangle na dwie osobne klasy testowe, ale rozumiem, że chciałaś pobawić się Suit'ami junit'owymi, co się bardzo chwali
++ tego nie mogłaś wiedzieć jak sprawić, żeby obiekt się ładnie wypiswał - będziemy to robić na następnych zajęciach, bo bardzo często w testach chcemy, żeby obiekty się ładnie wypisywały do logów albo do raportu testów.
++ assertEquals jest ok, choć ja osobiście mam z nią problem, nigdy nie pamiętam czy pierwszy powinien być expected a drugi actual czy odwrotnie (ma to znaczenie przy wypisywaniu informacji w przypadku gdy test się nie powiedzie), niemniej generalnie jest ok.
+- wystawianie tzw. setterów na zewnątrz jest anty-wzorcem - kiedyś się tak pisało więc możesz spotkać takie klasy nawet u siebie w projekcie. Niemniej łamie to zasadę enkapsulacji - generalnie nie chcemy, żeby świat zewnętrzny "grzebał" nam w bebechach klasy.
+- Konwencja jest taka, że klasy testowe kończymy słowem Test
+- generalnie nie wyciągamy logiki biznesowej klasy na zewnątrz do testu, w tym przypadku logika jest dość prosta ale można wyobrazić sobie nieco bardziej skomplikowane przypadki, dlatego właśnie idziemy w wypisanie tylko czego się spodziewamy.
+
+=== Triangle ===
+- usuwanie zbędnych linii kodu do kwestia czysto estetyczna i wymaga pewnego wyczucia, bo np różne części kodu testowego (given/when/then) dobrze rozdzielić pustymi liniami
+-  * w importach jest generalnie niewskazana. Już na naszych pierwszych zajęciach łapały wam się różne klasy, przy stosowaniu * ten problem po pierwsze się może nasilić a po drugie będzie go dużo trudniej znaleźć
+
+=== Triangle Validator ===
+- tu się musimy zdecydować, czy przekazujemy boki trójkąta w konstruktrze i wtedy validator będzie validował tylko te konkretne boki, czy też przekazujemy boki do metody validate i wtedy mamy dość uniwersalne narzędzie do validowania, czy da się zbudować trójkąt z trzech boków. Wybrałem tą drugą opcję bo jest bardziej elastyczna
+- takiej formy zapisywania string'a jeszcze nie poznaliśmy, toteż nie mogłaś o tym wiedzieć, niemniej jak już odczułaś, wypełnianie stringa zmiennymi jest dość uciążliwe, dlatego własnie zostal stworzony String.format. Zachęcam do poczytania sobie dokumentację
+- jak tylko zdecydowaliśmy się podejście z przekazywaniem zmiennych w metoddzie, udało znacząco się uprościć tą klaskę. Spróbuj zastanowić się daczego to działa bez słowa if
+- to się troszkę zakręciłaś bo ostatecznie porównujesz dwie nie związane z sobą rzeczy, trochę wyszło sprawdź czy 2=3.
+
+=== Palindrome ===
+- tu zabrakło faktycznie odwrócenia słowa, z poprzenim algorytmem buty to też palindrom
+- ten algorytm powinien być zamknięty w jakiejś klasie, nie powinien żyć metodzie testowej.
+- zabrakło klasy która faktycznie sprawdzałaby czy dane słowo jest palindromem więc ją dodałem. Algorym na sprawdzenie był prawie dobry tylko że w teście

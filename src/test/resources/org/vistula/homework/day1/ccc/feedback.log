@@ -1,0 +1,25 @@
+Git
++ duży plus za to że zdecydowałaś się zgłębić Git'a
+- każde repozytorium w Git'cie to ideowo inny projekt/inna aplikacja, więc katalog główny który masz "projekty", trochę temu przeczy (rzuć okiem na https://github.com/spring-projects, zwróć uwagę, że ich koncept zbioru projektów to tzw. "organizacja" w githubie)
+- w repozytorium powinny znaleźć się tylko pliki bezpośrednio związane z projektem (kod źródłowy, pliki properties, etc.) nie powinniśmy w repozytorium umieszczać plików konfiguracyjnych środowiska programistycznego (ex. *.iml)
+
+Projekt/pakietyzacja
+- struktura projektu nie jest standardowa, w katalogu src, powinniśmy znaleźć katalog odpowiadający konkretnemu językowi programowania (ex. java, groovy)
+- ponieważ nie jest to projekt Maven'owy (czy tez gradle'owy) zależności nie są poprawnie rozwiązywane, przez co kod się nie kompiluje
+- pakiet Code nie niesie z sobą informacji kontekstowej, nazwy pakietów powinny dawać szerszy kontekst klasom, które się w nich znajdują
+- konwencja nazewnicza pakietów jest taka że piszemy je małą literą
+
+Kod
+Rectangle.java
++ pomimo tego, że nawiasy nie są potrzebne ponieważ Java zachowa kolejność działań to w mojej ocenie poprawiają one czytelność kodu
+- słowo kluczowe this nie jest wymagane w metodach klasy, chyba że koliduje z nazwami zmiennych zdefiniowanych w danej metodzie
+RectangleTest.java
++ dobrze rozdzielone testy dla pola i obwodu
+- zważywszy na implementację, testy dla kwadratu są nieco nadmiarowe (nie są jakościowo różne od tych dla prostokątu)
+- brak testów negatywnych (np. dla wartości ujemnych)
+- użycie junit'owego assertEquals jest jak najbardziej ok, przy czym sytuacja z junitowym frameworkiem do assercji się znacząco komplikuje, gdy musimy dokonać oceny czy np. zbiór elementów zawiera w sobie tylko elementy spodziewane
+WordChecker
++ rozwiązanie tego problemu pętlą while wykracza poza zakres dnia pierwszego, niemniej duży plus za użycie tej metody
+- zawsze gdy mamy do wyboru napisanie własnego algorytmu lub wykorzystanie już napisanego, dostępnego w bibliotekach wykorzystujemy już ten napisany, w przypadku tego zadania klasa StringBuffer ma metodę do odwracania string'ów
+WordCheckerTest
+- jeden z testów nie przechodzi

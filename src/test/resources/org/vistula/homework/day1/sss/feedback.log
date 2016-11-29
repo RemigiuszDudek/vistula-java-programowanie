@@ -1,0 +1,3 @@
+- jeden assert biznesowy na test
+- zgodnie z konwencją, pola klasy są definiowane na początku klasy
+- pola klasy jak tylko to możliwe (prawie zawsze) powinny być prywatne

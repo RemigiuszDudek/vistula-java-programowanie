@@ -1,0 +1,5 @@
+- konwencja jest taka, że klasy piszemy z dużej litery
++ algorytmy zarówno w Palindormie jak i w Prostokącie są ok
+- brak testów
+- klasa Prostokąt nie modeluje prostokąta jest narzędziem do obliczania pola/obwodu
+- obie klasy obsługują zarówno konsolę jak i pewną logikę biznesową związaną z obliczaniem pola/obwodu czy też sprawdzaniem czy słowo jest palindromem, powinniśmy rozdzielić te odpowiedzialności na dwie klasy

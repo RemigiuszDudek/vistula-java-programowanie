@@ -1,0 +1,5 @@
+- generalnie ok, tylko została stworzona aplikacja konsolowa zamiast klas
+- trudno testowalne,
+- lepiej nieco byłoby rozdzielić te klaski na pary klas,
+    - jedna byłaby odpowiedzialna tylko za obsługę konsoli (zbieranie danych) ale nie robiłaby obsługi tych danych,
+    - druga zawierałaby w sobie logikę biznesową i byłaby pięknie testowalna.

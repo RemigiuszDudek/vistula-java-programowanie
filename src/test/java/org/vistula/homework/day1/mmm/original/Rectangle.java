@@ -7,7 +7,7 @@ public class Rectangle {
     public int a;
     public int b;
 
-    int Field(){
+    int field(){
 
         if(a == 0 || b == 0)
             return -1;
@@ -15,7 +15,7 @@ public class Rectangle {
         return a*b;
     }
 
-    int Perimeter(){
+    int perimeter(){
 
         if(a == 0 || b == 0)
             return -1;

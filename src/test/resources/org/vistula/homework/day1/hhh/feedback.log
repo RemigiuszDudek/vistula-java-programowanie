@@ -17,6 +17,6 @@
 - to się troszkę zakręciłaś bo ostatecznie porównujesz dwie nie związane z sobą rzeczy, trochę wyszło sprawdź czy 2=3.
 
 === Palindrome ===
-- tu zabrakło faktycznie odwrócenia słowa, z poprzenim algorytmem buty to też palindrom
+- tu zabrakło faktycznie odwrócenia słowa, z poprzednim algorytmem "buty" to też palindrom
 - ten algorytm powinien być zamknięty w jakiejś klasie, nie powinien żyć metodzie testowej.
 - zabrakło klasy która faktycznie sprawdzałaby czy dane słowo jest palindromem więc ją dodałem. Algorym na sprawdzenie był prawie dobry tylko że w teście

@@ -16,8 +16,8 @@ public class Main {
 
         Rectangle prostokat = new Rectangle();
 
-        int pole = prostokat.Field();
-        int obwod = prostokat.Perimeter();
+        int pole = prostokat.field();
+        int obwod = prostokat.perimeter();
 
         System.out.println(pole);
         System.out.println(obwod);

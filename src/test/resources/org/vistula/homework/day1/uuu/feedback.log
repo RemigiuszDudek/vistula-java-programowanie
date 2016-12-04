@@ -1,0 +1,6 @@
++ duży plus za wiele wariacji na temat trójkąta - cieszę się, że udało Ci się wkręcić w programowanie
+- wszystko testowane/wywoływane przez main, możnaby napisać test, który będzie to wywoływał (i testowałprzy okazji)
+- zdecydowałaś się na napisanie aplikacji konsolowej, dobrą praktyką w takim przypadku jest rozdzielenie obsługi konsoli od logiki biznesowej, rozdzieliłem te dwie odpowiedzialności w przypadku Fibbonacciego, spróbuj to zrobić samodzielnie w pozostałych przypadkach
+- klasa Rectangle nie modeluje prostokąta, jest narzędziem do obliczania pola i obwodu prostokąta (na następnych zajęciach zaczniemy od modelowania to może stanie się to nieco jaśniejsze, na razie rzuć okiem na moje rozwiązanie)
+- triangle validator - można uprościć tego if'a
+

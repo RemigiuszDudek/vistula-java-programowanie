@@ -1,0 +1,4 @@
+- klasa powinna mieć taką samą nazwę jak plik w którym się znajduje
+- test powinien być samowalidujący się, tzn.powinniśmy w nim umieścić assert'y, mając same println'y niewiele zyskujemy bo i tak, ktoś musi popatrzeć i przeanalizować to co test wypisze na konsolę
+- jeśli chodzi o pole/obwód to celem było stworzenie osobnej klasy modelującej prostokąt (może też być trójkąt) i przetestowanie tej klasy
+- każda metoda testowa powinna testować jedną regułę biznesową, w przypadku testu prostokąta/trójkąta powinniśmy mieć dwa testy, jeden dla obwodu i drugi dla pola

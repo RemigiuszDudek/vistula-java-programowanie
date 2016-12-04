@@ -1,0 +1,21 @@
++ bardzo wielu wyprzedziło materiał
++ wykorzystywanie bibliotek
+- funkcja main jest zupełnie niepotrzebna do testowania
+- propozycje idei na optymalizację kodu
+- pakiet domyślny
+- nazwy powinny odawać intencję programisty (zmienna o nazwie "zmienna" dość niewiele mówi ;-))
+- modelowanie
+    - chcemy zamodelować osobę w celu wykonania sprawdzenia czy osoba jest w wieku pracującym czy nie
+    - chcemy zamodelować studenta w celu podjęcia decyzji czy przyznamy mu stypendium
+    - chcemy zamodelować pracownika w celu sprawdzenia jaki ma okres wypowiedzenia
+    - chcemy zamodelować narzędzie do badania czy da się stworzyć trójkąt z trzech boków o podanych długościach
+- System.out.println jest nierekomendowaną metodą "logowania"
+- struktura projektu musi być zgodna z konwencj, inaczej różne rzeczy nie będą Wam działać
+- dlaczego używamy AssertJ a nie JUnit'owych assercji?
+- jak wygląda projekt Java'owy z perspektywy plików/katalogów?
+- stare sposoby modelowania klas - gettery/settery
+- Single Responsibility Principle - konsola .vs. logika biznesowa
+- test *zawsze* składa się z trzech części
+
+- GIT
+    - definiowanie .gitignore

@@ -20,3 +20,28 @@
 - tu zabrakło faktycznie odwrócenia słowa, z poprzednim algorytmem "buty" to też palindrom
 - ten algorytm powinien być zamknięty w jakiejś klasie, nie powinien żyć metodzie testowej.
 - zabrakło klasy która faktycznie sprawdzałaby czy dane słowo jest palindromem więc ją dodałem. Algorym na sprawdzenie był prawie dobry tylko że w teście
+
+
+Day2
+- struktura projektów jest niezgodna z konwencją
+- dobrze używać jakiegoś mechanizmu do zarządzania zależnościami i budowania projektu (np. maven, gradle)
+- coś jest nie tak w sposobie w jaki współpracujesz z gitem, pomimo tego, że w klasie widzę, że powinna znajdować się w pakiecie w repozytorium jest ona umieszczona w pakiecie domyślnym
+
+=== Percent Grader ===
+- nazwy pakietów albo rozdzielamy '_' albo w ogóle nie podkreślamy
+- w algorytmie jest kilka błędów (np. jeśli mam dokładnie 75% algorym wystawi mi ocenę 1 - czułbym się poszkodowany ;-)
+- nie potrzebujesz metody main - ona zazwyczaj tylko zaciemnia obraz
+- nie ma potrzeby tworzenia pól klasy (x, y), zwłaszcza, że są one i tak przykryte przez zdefiniowane zmienne (idea pokazuje je jako nieużywane)
+- checkX niewiele mówi, zmieniłbym ją na checkGrade
+
+=== Persons ===
+- metoda setAge łamie zasadę enkapsulacji - generalnie świat zewnętrzny nie powinien mieć możliwości modyfikowania wewnętrznych zmiennych klasy Person "na chama" ;-)
+- logika testująca i logika testowana jest w tej samej klasie, powinniśmy to rozdzielić
+
+=== Multiplication table ===
+- da się znacznie łatwiej - pobaw się String.format
+- dodałaś taki komentarz "// i = numer wiersza" - nie łatwiej byłoby nazwać zmienną rowId
+
+=== Fibonacci ===
++ ładne rozdzielenie warstwy prezentacji od warstwy logiki biznesowej
+- w tak zaprojektowanym ciągu potrzebujesz listę przechowującą cały ciąg co może w ogólności skonsumować dużo pamięci, możesz pomyśleć nad nieco optymalniejszym rozwiązaniem

@@ -1,4 +1,4 @@
-+ bardzo wielu wyprzedziło materiał
++ bardzo wiele osób wyprzedziło materiał
 + wykorzystywanie bibliotek
 - funkcja main jest zupełnie niepotrzebna do testowania
 - propozycje idei na optymalizację kodu

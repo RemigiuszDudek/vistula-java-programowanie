@@ -13,3 +13,19 @@ Rectangle
     - testom zmieniłbym nazwę
         shouldHaveField -> shouldCalculateFieldCorrectly
         shouldHavePerimeter - shouldCalculatePerimeterCorrectly
+
+Day2
+- zachęcam do używania ctrl+alt+l - formatuje kod, co pozwala czasem znaleźć błędy i lepiej wygląda
+- nazwy metod zaczynamy małą literą
+Fibonacci
+    + algorytm działa
+    - na nadchodzących zajęciach dowiemy się jak parametryzować testy a to się bardzo tu przda
+MultiplicationTable
+    - trochę przekombinowane wyrównywanie odpowiedni String.format załatwia sprawę
+PercentGrader
+    - rozważ przekazywanie parametru do metody grade() a nie przez konstruktor, jaka jest różnica koncepcyjna?
+Triangle
+    - konstruktory tworzą klasę w niepoprawnym stanie, tzn. w zależności od tego jakiego konstruktora użyję mogę używać tylko niektórych metod
+    - pola klasy powinny być prywatne
+TriangleValidator
+    + bardzo dobrze, jedno tylko pytanie, co w sytuacji gdy ktoś przekaże ujemne wartości?

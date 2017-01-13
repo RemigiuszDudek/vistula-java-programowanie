@@ -3,3 +3,18 @@
 - lepiej nieco byłoby rozdzielić te klaski na pary klas,
     - jedna byłaby odpowiedzialna tylko za obsługę konsoli (zbieranie danych) ale nie robiłaby obsługi tych danych,
     - druga zawierałaby w sobie logikę biznesową i byłaby pięknie testowalna.
+
+Day 2
++ dobre wykorzystanie modułow maven'owych (nie jest Ci już potrzeby katalog src w głównym katalogu)
++ dobre użycie static import'ów
+=== Fibonacci ===
++ wzorcowe wykorzystanie rekurencji (dobrze jest tylko wiedzieć, że z performance'owego pktu widzenia jest ono dość niewydajne, wyznaczenie już 48 elementu zajmuje ponad 20s na moim laptopie)
+- nie do końca rozumiem ideę tworzenia testu który fail'uje
+=== Percent Grader ===
+- zachęcam do wykorzystywania skrótu ctrl+alt+l
+- algorytm jest dość mylący na granicach między przedziałami nie jest do końca jasne, jaka ocena zostanie wystawiona
+- dwa testy fail'ują
+=== Triangle Field ===
++ bardzo dobrze
+=== Triangle Validator ===
++ bardzo dobrze

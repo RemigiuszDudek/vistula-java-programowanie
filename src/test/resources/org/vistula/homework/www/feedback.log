@@ -1,1 +1,28 @@
 === Day 2 ===
+- w klasie PersonTest - możesz re-użyć raz stworzonych obiektów zarówno do wypełnienia listy, którą będziemy testować jak i list expected
+- assert, którego użyłaś (isEqual) jest o tyle problematyczny, że jest on czuły na kolejność (co ma sens, bo lista jest uporządkowana, czyli ma zawsze kolejność), możesz się pobawić z innymi metodami, są tam takie, które są przeznaczone do testowania kolekcji
+- w pętli w której pobierasz "pierwszą osobą powyżej 18", jak sprawdzasz czy przypadkiem nie wyszliśmy już poza listę (if i>size) powinno być (if i>size-1), w javie kolekcje numerowan są od 0 do size-1
+- generalnie super!! wszystkie powyższe błędy mogły się zdarzyć nawet osobie pracującej już jakiś czas w branży
+
+- w klasie WebPage konstruktor poprzedza pole klasy, konwencja jest taka, że pola idą pierwsze, poten konstruktor a potem metody
+
+=== Fibonacci ===
++ algorytm poprawny choć sporo w nim pustych (niepotrzebnych) linii
+- zmienna używana w pętli może być zadeklarowana bezpośrednio w pętli ( for (int i=0....))
+
+=== Multiplication table ===
++ algorytm jest ok i nawet tabelka jest równa, acz da się to zrobić znacznie prościej (pobaw się String.format)
+
+=== Percent Grader ===
++ algorytm ok
+- zachęcam do korzystania ze skrótu ctrl+alt+l
+- dobrą praktyką jest rozdzielać testy (tak, żeby nie grupować wielu assert'ów) acz rozumiem, że mogło wydawać Ci się to przerostem formy nad treścią, na następnych zajęciach poznamy testy parametryczne, które wyśmienicie się nadają do takch problemów
+
+=== Triangle ===
++ super
+
+=== Triangle Validator ===
++ super
+
+=== WebPageVisitCounter ===
++ bardzo dobrze, zwróć jednak uwagę, że jest tam sporo duplikacji logiki pomiędzy tymi dwoma metodami, da się to znacząco uprościć

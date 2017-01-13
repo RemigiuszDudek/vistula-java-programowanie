@@ -2,3 +2,10 @@
 - test powinien być samowalidujący się, tzn.powinniśmy w nim umieścić assert'y, mając same println'y niewiele zyskujemy bo i tak, ktoś musi popatrzeć i przeanalizować to co test wypisze na konsolę
 - jeśli chodzi o pole/obwód to celem było stworzenie osobnej klasy modelującej prostokąt (może też być trójkąt) i przetestowanie tej klasy
 - każda metoda testowa powinna testować jedną regułę biznesową, w przypadku testu prostokąta/trójkąta powinniśmy mieć dwa testy, jeden dla obwodu i drugi dla pola
+
+day2
++ dobrze zaprojektowana klasa Person
+- nazwa klasy Main niewiele mówi
+- zazwyczaj nie generujemy danych testowych losowo, bo test może nam się zachowywać niedeterministycznie, czasem przejdzie a czasem nie - w niedługim czasie ludzie nauczą się ignorować ten test i zacznie być przeszkodą a nie pomocą
+- test powinien być samowalidujący się, tzn. powinien zakończyć się albo sukcesem albo porażką, w Twoim przypadku ktoś musi spojrzeć i przeanalizować wynik
+- logika testowana i logika testująca są zmieszane w tej samej klasie w rzeczywistości nigdy czegoś takiego byś nie zrobiła

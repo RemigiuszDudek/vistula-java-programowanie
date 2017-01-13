@@ -1,3 +1,12 @@
+Day1
 - umieścić pliki w projekcie
 - zamiast System.out.println, dodać testy co spowoduje, że interfejs klas stanie się przejrzystszy - na razie wszystko siedzi w main
 - klasa Rectangle powinna modelować prostokąt czyli powinna zawierać w sobie dwa pola definiujące długość/szerokość
+
+Day2
+- zachęcam do używania skrótu ctrl+alt+l - formatuje kod co pozwala wykryć błędy i ładniej wygląda
+- nazwy metod zaczynamy z małej litery
+- MultiplicationTable - sprytnie, tylko trochę się nam tabelka rozjechała, pomyśl jakby to można było zrobić inaczej
+- PercentGrader - z obu stron masz granice domknięte, kod zadziała ale dość nieintuicyjne, np. czytając kod nie wiem jaką ocenę dostanę jak będę miał 55% czy to będzie 1 czy 2
+- Triangle - dlaczego pole klasy nazywa się 'area'?
+- TriangleValidator - trochę mało testów ale poza tym bardzo dobrze

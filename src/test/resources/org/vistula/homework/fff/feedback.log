@@ -1,2 +1,15 @@
 + duży plus za zmierzenie się z GITem a dodatkowo za wielo-modułowy projekt
 - generalnie bardzo dobrze
+
+=== day 2 ===
++ PercentGrader bardzo dobrze, jedna uwaga tylko - nie powinno umieszczać się klas w pakiecie domyślnym
++ Triangle również bardzo dobrze, i równie mała uwaga, AssertJ dostarcza metody isEqual z parametrem offset, która została wprowadzona właśnie po to, by porównywać double
++ FibonacciFinder - ponownie bardzo dobrze :-), wrzuciłem Ci alternatywne rozwiązanie z wykorzystaniem tzw. rekurencji, która w tym przypadku pięknie upraszcza kod
+- FibonacciFinder
+    - ani Twoja ani moja (rekurencyjna) implementacja nie oszczędza pamięci, wyobraźmy sobie że mamy poznać 1 000 000 000 element ciągu, będziemy potrzebowali gigabajty pamięci (w przypadku mojego rozwiązania to w ogóle trwałoby wieki)
+    - czy masz pomysł na optymalizację swojego/mojego rozwiązania?
++ PersonDiviser - algorytm prawie dobrze działa, w przypadku juniorów Ci nie działa bo wpadł Ci średnik za if'em
+    - dajmy szansę testom się przewrócić, w przypadku testowania juniorów, dałaś tylko juniorów więc test nie miał szans powiedzieć Ci o tym błędzie
+    - zamiast zwykłego for'a możemy urzyć for'a po kolekcji, który bardzo ładnie się tu sprawdzi
++ MultiplicationTable - super, nic dodać nic ująć
+

@@ -1,0 +1,19 @@
+- wszystkie klasy umieszczone są w pakiecie domyślnym, jest to antywzorzec
+- w wielu przypadkach zmieszałeś logikę testowana z testami. Idea była taka, żeby osobna klasa odpowiadała za rozwiązanie danego problemu biznesowego (e.g. Fibonacci, PercentGrader) a osobna za testy (e.g. FibonacciTest, PercentGraderTest)
+- widzę, że wszędzie używasz Hamcresta - to oczywiście jest ok (sam długo z niego korzystałem) acz zachęcam do poznania się z AssertJ - pisze się duuużo przyjemniej
+- zachęcam do korzystania ze skrótu ctrl+alt+l - formatowanie kodu
+
+- pom.xml - dobrą praktyką jest usuwanie z pom'a niepotrzebnych zależności (np. selenium)
++ Multiplication table bardzo dobrze - mała sugestia - dodanie "3" w formacie sprawi, że tabela będzie wyrównana do lewej - format("\t%3d", i * j)
+- Fibonacci
+    - zmieszane zostały testy z logiką biznesową, idea była taka, żeby osobna klasa odpowiadała za działania związane z ciągiem Fibonacciego
+    - testFibonacci oraz testFibonacci5 są praktycznie zbędne, testFibonacciRange pokrywa oba te przypadki, na naszych ostatnich zajęciach dowiemy się jak zparametryzować testy i dzięki temu ten test będzie wyglądał dużo lepiej
+- Palindrome
+    - dobrą praktyką jest przerywanie pętli jak tylko znamy odpowiedź (chodzi oczywiście o performance rozwiązania), w twoim przypadku, pomimo, że już na pierwszej literze algorytm stwierdzi że nie jest to palindrome będzie sprawdzał dane słowo do samego końca
+- PercentGrader
+    - komentarze w testach nie powinny być potrzebne, jeśli pojawi się potrzeba dodania komentarza to znak, że nazwa testu nie jest odpowiednia albo brak metody prywatnej, która zwiększałaby czytelność kodu
+- Triangle
+    - konwencja jest taka, że klasa testowa kończy się słowem Test a nie zaczyna
+    - pola klasy Triangle powinny być prywatne
+- WorkStatus - pola klasy Person powinny być prywatne
+

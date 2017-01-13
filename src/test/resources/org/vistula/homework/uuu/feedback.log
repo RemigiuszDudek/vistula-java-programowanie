@@ -3,4 +3,3 @@
 - zdecydowałaś się na napisanie aplikacji konsolowej, dobrą praktyką w takim przypadku jest rozdzielenie obsługi konsoli od logiki biznesowej, rozdzieliłem te dwie odpowiedzialności w przypadku Fibbonacciego, spróbuj to zrobić samodzielnie w pozostałych przypadkach
 - klasa Rectangle nie modeluje prostokąta, jest narzędziem do obliczania pola i obwodu prostokąta (na następnych zajęciach zaczniemy od modelowania to może stanie się to nieco jaśniejsze, na razie rzuć okiem na moje rozwiązanie)
 - triangle validator - można uprościć tego if'a
-

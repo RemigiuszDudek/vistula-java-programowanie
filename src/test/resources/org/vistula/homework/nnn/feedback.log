@@ -1,1 +1,18 @@
 - modelowanie prostokąta vs util do obliczania pola/obwodu
+
+Day2
+=== Multiplication Table ===
++ super
+=== Percent Grader ===
++ logika poprawna
+- brak testu
+=== Fibonacci ===
++ wzorcowe zastosowanie rekurencji
+- jest to dość niewydajne rozwiązanie jeśli chodzi o performance (już wyznaczenie 48 elementu zajmuje ponad 20 sekund)
+=== Triangle Field ===
++ jasny projekt klasy TriangleField
+=== TriangleValidator ===
++ poprawna logika
+- brak testów
+- zmieszana warstwa prezentacji z warstwą logiki biznesowej
+

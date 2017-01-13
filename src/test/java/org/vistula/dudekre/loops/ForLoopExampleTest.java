@@ -1,7 +1,7 @@
 package org.vistula.dudekre.loops;
 
 import org.junit.Test;
-import org.vistula.dudekre.web.WebPage;
+import org.vistula.dudekre.webframework.webpages.WebPage;
 
 import java.util.ArrayList;
 

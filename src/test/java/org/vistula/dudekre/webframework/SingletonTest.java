@@ -13,7 +13,7 @@ public class SingletonTest {
     @Test
     public void singletonTest() {
         Singleton singleton = Singleton.getInstance();
-        singleton.
+        singleton.returnTrue();
     }
 
 }

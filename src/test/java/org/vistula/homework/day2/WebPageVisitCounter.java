@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class WebPageVisitCounter {
-    private Map<String, Integer> visits = new HashMap<String, Integer>();
+    private HashMap<String, Integer> visits = new HashMap<String, Integer>();
 
     public void visit(String title) {
         visits.put(title, numberOfVisits(title) + 1);

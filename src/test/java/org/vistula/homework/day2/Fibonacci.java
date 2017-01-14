@@ -2,14 +2,14 @@ package org.vistula.homework.day2;
 
 public class Fibonacci {
     public long fibonacciSeriesElement(int n) {
-        long num = 0;
-        long num2 = 1;
+        long element1 = 0;
+        long element2 = 1;
         long fibonacci;
-        for (long loop = 0; loop < n; loop++) {
-            fibonacci = num + num2;
-            num = num2;
-            num2 = fibonacci;
+        for (int i = 0; i < n; i++) {
+            fibonacci = element1 + element2;
+            element1 = element2;
+            element2 = fibonacci;
         }
-        return num;
+        return element1;
     }
 }

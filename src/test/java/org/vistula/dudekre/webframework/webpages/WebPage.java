@@ -1,4 +1,4 @@
-package org.vistula.dudekre.web;
+package org.vistula.dudekre.webframework.webpages;
 
 public class WebPage {
     private String title;

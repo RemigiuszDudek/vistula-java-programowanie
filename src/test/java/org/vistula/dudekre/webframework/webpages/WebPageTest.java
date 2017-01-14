@@ -1,6 +1,7 @@
-package org.vistula.dudekre.web;
+package org.vistula.dudekre.webframework.webpages;
 
 import org.junit.Test;
+import org.vistula.dudekre.webframework.webpages.WebPage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

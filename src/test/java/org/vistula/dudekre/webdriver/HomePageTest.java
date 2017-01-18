@@ -1,12 +1,12 @@
 package org.vistula.dudekre.webdriver;
 
-import org.assertj.core.api.Assertions;
 import org.junit.Test;
 import org.vistula.dudekre.webdriver.pages.HomePage;
 
 import java.util.List;
 
 import static com.google.common.collect.ImmutableList.of;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class HomePageTest extends WebPageTest {
     private HomePage homePage = new HomePage(webDriver);
@@ -23,6 +23,6 @@ public class HomePageTest extends WebPageTest {
 
         List<String> postedTitles = homePage.go().getPostTitles();
 
-        Assertions.assertThat(postedTitles).containsExactlyElementsOf(expectedPostedTitles);
+        assertThat(postedTitles).containsExactlyElementsOf(expectedPostedTitles);
     }
 }

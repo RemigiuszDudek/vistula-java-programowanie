@@ -22,7 +22,6 @@ public class PageObjectPatterBasedTest {
     public void shouldBePossibleToLoginWithValidCredentials() {
         LoginPage loginPage = new LoginPage();
         HomePage homePage = loginPage.loginToHomePage(USERNAME, PASSWORD);
-        assertThat(homePage).isNotNull();
     }
 
     @Test
